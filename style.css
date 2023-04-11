@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Utilities */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(20vh);
+  opacity: 0;
+  transition: 2s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Navbar */
+
+.navbar-brand {
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+/* Main */
+
+body {
+  background-color: white;
+}
+
+.card {
+  box-shadow: 5px 5px 10px;
+  width: 90vw;
+  height: 90vh;
+}
+
+/* Section 1 */
+
+#section1 {
+  height: 88vh;
+}
+
+#hero-img {
+  width: 100%;
+}
+
+.hero-article {
+  text-align: center;
+}
+
+.btn-contact {
+  background-color: rgb(49, 108, 244);
+  color: white;
+  border: none;
+  border-radius: 0;
+  height: 45px;
+}
+
+/* Section 2 */
+
+#section2 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-img-top {
+  display: block;
+  width: 150px;
+  margin: auto;
+}
+
+/* Section 3 */
+
+#section3 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Section 4 */
+
+#section4 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#section4 .card-text {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.form-email {
+  width: 100%;
+}
+
+#name {
+  margin-top: 0.5rem;
+}
+
+#email,
+#name {
+  height: 45px;
+  width: 100%;
+  display: block;
+}
+
+.btn-submit {
+  background-color: rgb(49, 108, 244);
+  color: white;
+  border: none;
+  border-radius: 0;
+  width: 100%;
+  height: 45px;
+}
+
+/* Footer */
+footer {
+  color: white;
+  background-color: rgb(49, 108, 244);
+  text-align: center;
+  height: 25vh;
+}
+
+footer p {
+  margin: 0;
+  padding: 0;
+}
+
+footer ul {
+  padding-top: 0.6rem;
+  list-style-type: none;
+}
+
+.footer-link {
+  /* display: block; */
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (min-height: 650px) {
+  p {
+    font-size: 1.5rem;
+  }
+
+  .card-text {
+    font-size: 1.3rem;
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .btn-contact {
+    font-size: 1.5rem;
+    height: 70px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #hero-img {
+    display: block;
+    height: 50vh;
+    width: auto;
+    margin: auto;
+  }
+
+  #section1 {
+    display: block;
+  }
+
+  .container-desktop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #section2,
+  #section3,
+  #section4 {
+    width: 30vw;
+    margin-right: 0.5rem;
+  }
+
+  .card-text {
+    font-size: 1.3rem;
+  }
+
+  #section4 p {
+    font-size: 1.1rem;
+  }
+
+  #name,
+  #email {
+    width: 100%;
+  }
+
+  .form-email {
+    margin-top: 1.5rem;
+    width: 100%;
+  }
+}
