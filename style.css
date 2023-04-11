@@ -176,11 +176,12 @@ footer ul {
   }
 
   .card-text {
-    font-size: 24px;
+    font-size: 30px;
   }
 
   .card-title {
     font-size: 30px;
+    font-weight: 600;
     margin-bottom: 1.2rem;
   }
 
@@ -190,11 +191,11 @@ footer ul {
   }
 
   #section3 .card-text {
-    font-size: 27px;
+    font-size: 34px;
   }
 
   #section4 .card-text {
-    font-size: 24px;
+    font-size: 28px;
   }
 }
 
