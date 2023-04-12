@@ -151,7 +151,7 @@ footer {
   color: white;
   background-color: rgb(49, 108, 244);
   text-align: center;
-  height: 28vh;
+  height: 22vh;
 }
 
 footer p {
@@ -172,16 +172,16 @@ footer ul {
 
 @media screen and (min-height: 650px) {
   .hero-article {
-    font-size: 26px;
+    font-size: 1.3rem;
   }
 
   .card-text {
-    font-size: 26px;
+    font-size: 1.25rem;
     font-weight: 400;
   }
 
   .card-title {
-    font-size: 30px;
+    font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 1.2rem;
   }
@@ -192,11 +192,11 @@ footer ul {
   }
 
   #section3 .card-text {
-    font-size: 28px;
+    font-size: 1.3rem;
   }
 
   #section4 .card-text {
-    font-size: 24px;
+    font-size: 1.2rem;
   }
 }
 
@@ -210,7 +210,7 @@ footer ul {
 
   .hero-article {
     font-weight: 600;
-    font-size: 26px;
+    font-size: 1.3rem;
   }
 
   #section1 {
@@ -233,19 +233,19 @@ footer ul {
 
   .card-title {
     font-weight: 600;
-    font-size: 28px;
+    font-size: 1.4rem;
   }
 
   .card-text {
-    font-size: 26px;
+    font-size: 1.2rem;
   }
 
   #section3 .card-text {
-    font-size: 27px;
+    font-size: 1.2rem;
   }
 
   #section4 .card-text {
-    font-size: 23px;
+    font-size: 1.05rem;
   }
 
   #name,
