@@ -160,8 +160,12 @@ footer p {
 }
 
 footer ul {
-  padding-top: 0.6rem;
+  padding-top: 1rem;
   list-style-type: none;
+}
+
+footer ul li {
+  padding: 0.2rem;
 }
 
 .footer-link {
@@ -172,16 +176,16 @@ footer ul {
 
 @media screen and (min-height: 650px) {
   .hero-article {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
   }
 
   .card-text {
-    font-size: 1.25rem;
+    font-size: 1.6rem;
     font-weight: 400;
   }
 
   .card-title {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 600;
     margin-bottom: 1.2rem;
   }
@@ -192,11 +196,15 @@ footer ul {
   }
 
   #section3 .card-text {
-    font-size: 1.3rem;
+    font-size: 1.7rem;
   }
 
   #section4 .card-text {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+  }
+
+  footer {
+    height: 20vh;
   }
 }
 
@@ -255,5 +263,9 @@ footer ul {
 
   .form-email {
     width: 100%;
+  }
+
+  footer {
+    height: 28vh;
   }
 }
