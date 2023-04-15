@@ -15,7 +15,7 @@
   position: relative;
   transform: translateY(20vh);
   opacity: 0;
-  transition: 2s all ease;
+  transition: 1s all ease;
 }
 
 .reveal.active {
@@ -41,7 +41,7 @@ body {
 }
 
 .card {
-  box-shadow: 5px 5px 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
   width: 90vw;
   height: 90vh;
 }
@@ -151,12 +151,12 @@ footer {
   color: white;
   background-color: rgb(49, 108, 244);
   text-align: center;
-  height: 22vh;
+  height: fit-content;
 }
 
 footer p {
   margin: 0;
-  padding: 0;
+  padding: 0.3rem;
 }
 
 footer ul {
@@ -202,10 +202,6 @@ footer ul li {
   #section4 .card-text {
     font-size: 1.5rem;
   }
-
-  footer {
-    height: 20vh;
-  }
 }
 
 @media screen and (min-width: 768px) {
@@ -223,6 +219,7 @@ footer ul li {
 
   #section1 {
     display: block;
+    width: 100vw;
   }
 
   .container-desktop {
@@ -241,7 +238,7 @@ footer ul li {
 
   .card-title {
     font-weight: 600;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 
   .card-text {
@@ -264,8 +261,26 @@ footer ul li {
   .form-email {
     width: 100%;
   }
+}
 
-  footer {
-    height: 28vh;
+@media screen and (min-width: 1400px) {
+  .hero-article {
+    font-size: 2rem;
+  }
+
+  .card-title {
+    font-size: 2.2rem;
+  }
+
+  .card-text {
+    font-size: 2rem;
+  }
+
+  #section3 .card-text {
+    font-size: 2rem;
+  }
+
+  #section4 .card-text {
+    font-size: 1.8rem;
   }
 }
